@@ -1,0 +1,6 @@
+Instructions
+
+1. Please replace following statement in all files with Chrome Driver Path in your local machine
+   for executing successfully.
+   driver = webdriver.Chrome(executable_path="D:\Vinitha\sw\chromedriver_win31 (1)\chromedriver.exe")
+
