@@ -1,6 +1,9 @@
 Instructions
 
-1. Please replace following statement in all files with Chrome Driver Path in your local machine
-   for executing successfully.
-   driver = webdriver.Chrome(executable_path="D:\Vinitha\sw\chromedriver_win31 (1)\chromedriver.exe")
-
+1. Please replace the executable_path of chromedriver.exe as follows:
+    Install chrome driver for that supports your chrome version from following url
+    https://chromedriver.chromium.org/downloads and locate it into a folder
+2. Specify the folder path in all the files to the specified statement as follows
+   For example,
+   driver = webdriver.Chrome(executable_path="D:\sw\chromedriver_win31 (1)\chromedriver.exe")
+   Here, it creates a webdriver object for performing automation testing in chrome browser.
